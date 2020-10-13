@@ -40,7 +40,7 @@ then
 	bash webserver.sh
 elif [[ $option == 6 ]]
 then
-	bash myreon
+	bash myrecon
 elif [[ $option == 7 ]]
 then
 	bash Password_Genrator.sh
