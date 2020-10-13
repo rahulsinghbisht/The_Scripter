@@ -23,36 +23,36 @@ read option
 
 if [[ $option == 1 ]]
 then
-	bash shell_stabalize.sh
+	bash scripts/shell_stabalize.sh
 elif [[ $option == 2 ]]
 then
-	python3 Hash_Cracker.py
+	python3 scripts/Hash_Cracker.py
 elif [[ $option == 3 ]]
 then
 	echo 'Enter the hash path:'
 	read path
-	bash ssh_cracker $path
+	bash scripts/ssh_cracker $path
 elif [[ $option == 4 ]]
 then
-	bash payloadgen.sh
+	bash scripts/payloadgen.sh
 elif [[ $option == 5 ]]
 then
-	bash webserver.sh
+	bash scripts/webserver.sh
 elif [[ $option == 6 ]]
 then
-	bash myrecon
+	bash scripts/myrecon
 elif [[ $option == 7 ]]
 then
-	bash Password_Genrator.sh
+	bash scripts/Password_Genrator.sh
 elif [[ $option == 8 ]]
 then
 	echo 'wait updating'
 elif [[ $option == 9 ]]
 then
-	bash add_cronjob.sh
+	bash scripts/add_cronjob.sh
 elif [[ $option == 10 ]]
 then
-	bash add_ssh_key.sh
+	bash scripts/add_ssh_key.sh
 else
 	echo 'Not Found Start Again Boi:---'
 fi
