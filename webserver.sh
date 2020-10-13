@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "Enter the type of web server you want to launch"
 echo "0. Python"
